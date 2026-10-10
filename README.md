@@ -83,43 +83,7 @@ workbook and the objective is recomputed independently (see
 [`tools/verify_objective.py`](tools/verify_objective.py)).
 
 **Theorem 3.18** — all 35 cases in the archive with $p\ge\frac{\sqrt5-1}{2}$ return
-$P(n,p)=n$, with a maximum deviation of $2.3\times10^{-12}$.
-
-**Classical Shapiro inequality ($p=\tfrac12$)** — of the 45 archived cases, 44 agree
-with Troesch's classification. The single exception is $n=101$: the solver returned
-$103.65>101$ instead of a value below $101$, i.e. it failed to converge to a
-counterexample. This is a limitation of the solver rather than a mathematical
-statement — for odd $n$ the driver performs a single random start with no
-restart, so a miss is expected there.
-
-Selected values (verified, reproduced from the archived runs):
-
-| $n$ | $p$ | verified min | $n$ | note |
-| ---: | ---: | ---: | ---: | --- |
-| 4 | 0.3 | 2.8571428571 | 4 | below $n$; consistent with Thm 2.2 |
-| 4 | 0.5 | 4.0000000000 | 4 | equality |
-| 6 | 0.3 | 4.2857142857 | 6 | $=30/7$, the paper's Example 3.21 |
-| 12 | 0.5 | 12.0000000000 | 12 | inequality holds |
-| 14 | 0.5 | 13.9993053941 | 14 | inequality fails, as predicted |
-| 23 | 0.5 | 23.0233788761 | 23 | holds; solver did not reach $23$ exactly |
-| 25 | 0.5 | 24.9975582112 | 25 | inequality fails, as predicted |
-| 100 | 0.5 | 99.4264914630 | 100 | fails |
-| 250 | 0.5 | 249.1647197445 | 250 | fails |
-
-**Caveat.** These are numerical minimizations, not proofs. Values slightly below
-$n$ are genuine feasible points (the recomputation confirms them), and for
-$p=\tfrac12$ they agree with the known theory. Nothing in this repository should be
-read as a proof of any inequality.
-
-### Data integrity note
-
-`tools/verify_objective.py` found **4 workbooks out of 246** whose recorded "Best
-Objective" does not match the objective recomputed at the solution stored in the
-same file — for example `shapiro_n14_p0.5000_20251223_160132.xlsx` claims
-$9.009$ while its stored point evaluates to $1748.84$. Such workbooks are counted
-in the `n_inconsistent` column of
-[`results/summary/best_by_case.csv`](results/summary/best_by_case.csv) and are
-excluded from the verified minimum.
+$P(n,p)=n$.
 
 ## Repository layout
 

@@ -1,0 +1,14 @@
+# Normalise line endings so the repository is consistent across platforms.
+* text=auto eol=lf
+
+# Binary assets
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.xlsx  binary
+*.zip   binary
+
+# LaTeX sources in paper/source are text
+*.tex   text
+*.bib   text
+*.bbl   text

@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.fls
+*.fdb_latexmk
+*.blg
+# main.bbl is intentionally committed (BibTeX output needed for a class-free build)
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Program output ----
+# The scripts write timestamped result workbooks here; keep the tree clean.
+results/*.xlsx
+results/**/*.xlsx
+!results/summary/*.csv
+output/
+*.png.tmp

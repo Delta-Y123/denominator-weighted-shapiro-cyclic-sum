@@ -1,0 +1,113 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ando(2013)]{ando2013}
+T.~Ando.
+\newblock A new proof of shapiro inequality.
+\newblock \emph{Mathematical Inequalities \& Applications}, 16\penalty0
+  (3):\penalty0 611--632, 2013.
+\newblock \doi{10.7153/mia-16-46}.
+
+\bibitem[Bushell(1994)]{bushell1994}
+P.~J. Bushell.
+\newblock Shapiro's cyclic sum.
+\newblock \emph{Bulletin of the London Mathematical Society}, 26:\penalty0
+  564--574, 1994.
+\newblock \doi{10.1112/blms/26.6.564}.
+
+\bibitem[Bushell and McLeod(2002)]{bushell2002}
+P.~J. Bushell and J.~B. McLeod.
+\newblock Shapiro's cyclic inequality for even n.
+\newblock \emph{Journal of Inequalities and Applications}, 7\penalty0
+  (3):\penalty0 331--348, 2002.
+\newblock \doi{10.1080/10255830290030426}.
+
+\bibitem[Chen(2005)]{chen2005}
+B.~L. Chen.
+\newblock \emph{Optimization Theory and Algorithms}.
+\newblock Tsinghua University Press, Beijing, 2nd ed. edition, 2005.
+\newblock in Chinese.
+
+\bibitem[Choudhury and Sivakumar(2022)]{choudhury2022}
+P.~N. Choudhury and K.~C. Sivakumar.
+\newblock Nesbitt and shapiro cyclic sum inequalities for positive definite
+  matrices.
+\newblock \emph{Advances in Operator Theory}, 7\penalty0 (1):\penalty0 7, 2022.
+\newblock \doi{10.1007/s43036-021-00171-0}.
+
+\bibitem[Deng(1982)]{deng1982}
+N.~Y. Deng.
+\newblock \emph{Unconstrained Optimization Computational Methods}.
+\newblock Science Press, Beijing, 1982.
+\newblock in Chinese.
+
+\bibitem[Huang et~al.(2015)Huang, Gallivan, and Absil]{huang2015}
+W.~Huang, K.~A. Gallivan, and P.-A. Absil.
+\newblock A broyden class of quasi-newton methods for riemannian optimization.
+\newblock \emph{SIAM Journal on Optimization}, 25\penalty0 (3):\penalty0
+  1660--1685, 2015.
+\newblock \doi{10.1137/140955483}.
+
+\bibitem[Nguyen and Le(2009)]{nguyen2009}
+M.~T. Nguyen and Q.~T. Le.
+\newblock On an extension of shapiro's cyclic inequality.
+\newblock \emph{Journal of Inequalities and Applications}, page Article ID
+  491576, 2009.
+\newblock \doi{10.1155/2009/491576}.
+
+\bibitem[Qi(2011)]{qi2011}
+C.~Qi.
+\newblock \emph{Numerical optimization methods on Riemannian manifolds}.
+\newblock PhD thesis, The Florida State University, Tallahassee, 2011.
+
+\bibitem[Radulescu et~al.(2012)Radulescu, Radulescu, Diaz-Barrero, and
+  Alexandrescu]{radulescu2012}
+S.~Radulescu, M.~Radulescu, J.~L. Diaz-Barrero, and P.~Alexandrescu.
+\newblock Two families of cyclic inequalities.
+\newblock \emph{Mathematical Inequalities \& Applications}, 15\penalty0
+  (1):\penalty0 199--209, 2012.
+
+\bibitem[Ring and Wirth(2012)]{ring2012}
+W.~Ring and B.~Wirth.
+\newblock Optimization methods on riemannian manifolds and their application to
+  shape space.
+\newblock \emph{SIAM Journal on Optimization}, 22\penalty0 (2):\penalty0
+  596--627, 2012.
+\newblock \doi{10.1137/11082885X}.
+
+\bibitem[Steele(2004)]{steele2004}
+J.~M. Steele.
+\newblock \emph{The Cauchy-Schwarz Master Class: An Introduction to the Art of
+  Mathematical Inequalities}.
+\newblock Cambridge University Press, Cambridge, 2004.
+
+\bibitem[Tanriverdi(2012)]{tanriverdi2012}
+T.~Tanriverdi.
+\newblock Reformulation of shapiro's inequality.
+\newblock \emph{International Mathematical Forum}, 7\penalty0 (43):\penalty0
+  2125--2130, 2012.
+
+\bibitem[Troesch(1985)]{troesch1985}
+B.~A. Troesch.
+\newblock On shapiro cyclic inequality for n = 13.
+\newblock \emph{Mathematics of Computation}, 45\penalty0 (171):\penalty0
+  199--207, 1985.
+\newblock \doi{10.2307/2008058}.
+
+\bibitem[Troesch(1989)]{troesch1989}
+B.~A. Troesch.
+\newblock The validity of shapiro cyclic inequality.
+\newblock \emph{Mathematics of Computation}, 53\penalty0 (188):\penalty0
+  667--664, 1989.
+\newblock \doi{10.2307/2008728}.
+
+\bibitem[Wang(2026)]{wang2026}
+A.~Wang.
+\newblock Code for the minimum of the denominator-weighted shapiro cyclic sum
+  via rbfgs, 2026.
+
+\end{thebibliography}

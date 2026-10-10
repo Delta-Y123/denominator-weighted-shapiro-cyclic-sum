@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software or refer to this work, please cite it as below."
+title: "Research on the Denominator-Weighted Shapiro Cyclic Sum and Efficient Solution Algorithms"
+abstract: >-
+  Source code and manuscript for the study of the denominator-weighted Shapiro
+  cyclic sum F(x,p) = sum_i x_i / (p x_{i+1} + q x_{i+2}) with p + q = 1.
+  The work extends the Bushell-Ando structural characterization of minimizers
+  to the denominator-weighted case, reduces the computation of the minimum
+  P(n,p) to finitely many polynomial equation systems, and proposes a Riemannian
+  BFGS (RBFGS) algorithm on the unit sphere with oscillatory-solution detection
+  and restart.
+type: software
+authors:
+  - family-names: Wang
+    given-names: Anqi
+    affiliation: "School of Mathematical Sciences, Tongji University, Shanghai 200092, China"
+    email: wang_anqi@tongji.edu.cn
+version: 1.0.0
+date-released: "2026-07-15"
+license: MIT
+repository-code: "https://github.com/Delta-Y123/denominator-weighted-shapiro-cyclic-sum"
+keywords:
+  - Shapiro inequality
+  - Shapiro cyclic sum
+  - Riemannian BFGS algorithm
+  - minimizer analysis
+  - cyclic inequality
+  - optimization on manifolds
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19228120
+    description: "Archived software release on Zenodo (MIT licence)"
+preferred-citation:
+  type: article
+  title: "Research on the Denominator-Weighted Shapiro Cyclic Sum and Efficient Solution Algorithms"
+  authors:
+    - family-names: Wang
+      given-names: Anqi
+      affiliation: "School of Mathematical Sciences, Tongji University, Shanghai 200092, China"
+      email: wang_anqi@tongji.edu.cn
+  year: 2026
+  month: 7
+  keywords:
+    - Shapiro inequality
+    - Shapiro cyclic sum
+    - Riemannian BFGS algorithm
+    - minimizer analysis
+  notes: "Preprint. This work was supported by the Tongji University Student Innovation Training Program (SITP) under No. X2025634."

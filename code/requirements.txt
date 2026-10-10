@@ -1,0 +1,20 @@
+# Python dependencies for the code in this repository.
+#
+#   python -m pip install -r requirements.txt
+#
+# Notes
+# -----
+# * RBFGS_Algorithm.py and WeightedShapiro.py import `matplotlib.cm.get_cmap`.
+#   That alias was deprecated in matplotlib 3.7 and removed in 3.11, so running
+#   those scripts *directly* requires matplotlib < 3.11.  The wrapper
+#   `run_shapiro.py` re-installs the alias and therefore also works on newer
+#   releases.  The upper bound below is what the original scripts need.
+# * openpyxl is never imported directly, but pandas needs it as the engine for
+#   `pd.ExcelWriter(..., engine='openpyxl')`, which is how results are written.
+# * sympy is only needed by Compute_f_i.py.
+
+numpy>=1.24
+pandas>=1.5
+matplotlib>=3.6,<3.11
+openpyxl>=3.1
+sympy>=1.12

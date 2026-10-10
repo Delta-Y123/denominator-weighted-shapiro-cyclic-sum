@@ -1,6 +1,6 @@
 # Research on the Denominator-Weighted Shapiro Cyclic Sum and Efficient Solution Algorithms
 
-**Anqi Wang** — School of Mathematical Sciences, Tongji University, Shanghai 200092, China
+**Wang Anqi** — School of Mathematical Sciences, Tongji University, Shanghai 200092, China
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19228120.svg)](https://doi.org/10.5281/zenodo.19228120)
 [![License: MIT](https://img.shields.io/badge/code%20license-MIT-blue.svg)](LICENSE)

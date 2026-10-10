@@ -160,7 +160,7 @@ excluded from the verified minimum.
 ### Install
 
 ```bash
-git clone <this repository>
+git clone https://github.com/Delta-Y123/denominator-weighted-shapiro-cyclic-sum.git
 cd denominator-weighted-shapiro-cyclic-sum
 python -m pip install -r code/requirements.txt
 ```
